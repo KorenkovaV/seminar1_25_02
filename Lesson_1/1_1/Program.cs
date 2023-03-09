@@ -7,9 +7,9 @@ int a = int.Parse(Console.ReadLine()!);
 Console.WriteLine("enter a number 2");
 int b = int.Parse(Console.ReadLine()!);
 
-int c = b*b;
+int c = b * b;
 
-if(a == c)
+if (a == c)
 {
     Console.WriteLine("Yes");
 }
