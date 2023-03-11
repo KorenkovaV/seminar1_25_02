@@ -7,7 +7,7 @@
 int big(int rand)
 {
     Console.WriteLine(rand);
-    int a = (rand - rand % 10) / 10;
+    int a = rand / 10;
     int b = rand % 10;
     if (a > b) return a;
     else return b;
