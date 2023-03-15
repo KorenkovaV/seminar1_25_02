@@ -1,0 +1,16 @@
+﻿
+// 1. Напишите программу, которая выводит случайное число
+// из отрезка [10, 99] и показывает наибольшую цифру числа.
+
+// в конце после объявления функции ; не ставится
+
+int big(int rand)
+{
+    Console.WriteLine(rand);
+    int a = rand / 10;
+    int b = rand % 10;
+    if (a > b) return a;
+    else return b;
+}
+int result = big(new Random().Next(10, 100));
+Console.WriteLine(result);
